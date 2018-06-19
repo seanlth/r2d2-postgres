@@ -18,5 +18,5 @@ path = "tests/test.rs"
 
 [dependencies]
 r2d2 = "0.8"
-postgres = "0.15"
-postgres-shared = "0.4"
+postgres = { git = "https://github.com/seanlth/rust-postgres" }
+postgres-shared = { git = "https://github.com/sfackler/rust-postgres/tree/master/postgres-shared" }
